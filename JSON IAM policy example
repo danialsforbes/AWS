@@ -1,0 +1,23 @@
+{
+    "Version": "2022-12-18",
+    "Statement": [
+          {
+                  "Sid": "MFA-Access",
+                  "Effect": "Allow",
+                  "Action": "ec2:",
+                  "Resource": "*",
+                  "Condition": {
+                        "BoolIfExists": {
+                                "aws.MultiFactorAuthPresent": "true"
+                             },
+                             "IpAddress":  {
+                                    aws:SourceIP": "1.2.3.4./32"
+                             }
+                     }
+               }
+          }
+   }
+}
+                     
+                
+                          
