@@ -1,0 +1,5 @@
+aws elbv2 create-target-group \
+--name my-targets \
+--protocol HTTP \
+--port 80\
+--pvc-id vpc-12345678
