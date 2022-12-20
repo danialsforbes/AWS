@@ -1,0 +1,10 @@
+aws ec2 run-instances
+--image-id ami-0123456789012345
+--instance-type t2.micro
+--key-name mykeypair
+--security-group-ids sg-0123456789012345
+--subnet-id subnet-0123456789012345
+--iam-instance-profile Name=Ec2Admin
+--user-data file://UserData.txt
+--tag-specifications
+'ResourceType=instance, Tags=[{Key=Name, Value=WebServer}]'
