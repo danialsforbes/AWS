@@ -1,0 +1,23 @@
+aws ec2 create-vpc-peering-connection --vpc-id vpc-1a2b3c4d --peer-vpc-id vpc-11122233
+
+//The expected result is: 
+{
+"VpcPeeringConnection" :
+{ 
+"Status"
+"Message" "Code"
+},
+"Tags"
+"VpcId" "CidrBlock" : {
+: "Initiating Request to 444455556666", : "initiating-request"
+: [],
+"RequesterVpcInfo" : { "OwnerId"
+: "444455556666", : "vpc-1a2b3c4d", : "10.0.0.0/28"
+}, "VpcPeeringConnectionId": "pcx-111aaa111", "ExpirationTime"
+"AccepterVpcInfo" : { "OwnerId"
+: "444455556666", : "2014-04
+"VpcId" : "vpc-11122233" 
+} 
+} 
+}
+//
