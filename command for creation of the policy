@@ -1,0 +1,6 @@
+ $ aws dlm create-lifecycle-policy
+ --description "My backup policy"
+ --state ENABLED
+ --execuition-role-arn
+ arn:aws:iam:197757065544:role/AWSDataLifecycleManagerDefaultRole
+ --policy-details file://polocyDetails.json
