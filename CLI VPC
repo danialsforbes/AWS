@@ -10,3 +10,11 @@
 "AssociationId": "vpc-cidr-assoc-04ae2a5af46e7bb7c",
 "CidrBlock": "10.0.0.0/16", 
 "CidrBlockState": {
+"State": "associated" 
+} 
+}
+],
+"IsDefault": false,
+"Tags": []
+} 
+}
