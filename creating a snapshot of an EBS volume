@@ -1,0 +1,2 @@
+ aws ec2 create-snapshot --volume-id vol-1234567890abcdef0
+ --description "This is my root volume snapshot"
