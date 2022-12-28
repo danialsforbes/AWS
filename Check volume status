@@ -1,0 +1,4 @@
+aws ec2 create-volume --size 80
+--availability-zone us-east-1a
+--volume-type gp2 
+--snapshot-id snap 1234567890abcdef0
