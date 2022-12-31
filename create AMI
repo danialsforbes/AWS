@@ -1,0 +1,1 @@
+ec2 create-image --instance-id i-1234567890abcdef0 --name "Our_Base_Image-2018-09-17"
