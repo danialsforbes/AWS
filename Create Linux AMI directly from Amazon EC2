@@ -1,0 +1,1 @@
+aws ec2 register-image -root-device-name '/dev/sda1' --name "MyImage"
